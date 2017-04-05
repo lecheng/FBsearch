@@ -1,0 +1,107 @@
+img#profile{	width:30px; height:30px;}
+.posthead img{width:50px; height:50px;}
+.noradius {
+    border-radius: 0px;
+}
+
+.form{
+    margin-top: 8px;
+}
+#keyword{
+    height:35px;
+    width:60%;
+/*    width:100%;*/
+}
+#search{
+    background-color:#3c5a96;
+    height:35px;
+}
+#reset{
+    height:35px;
+    margin-left: 10px;
+    border: 1px solid #3c5a96;
+    color:#3c5a96;
+    text-align: center;
+}
+.type{
+    text-align: center;
+    height:30px;
+    line-height: 30px;
+}
+.activeTab{
+    background: #3c5a96;
+    color:white;
+}
+.activeTab a{
+    color:white;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+a:focus{
+    text-decoration: none;
+}
+.line{
+    background-color: #3c5a96;
+    height:3px;
+}
+.page button{
+    width:80px;
+    margin-top: 10px;
+    margin-bottom: 10px !important;
+}
+.yellow{
+    color:#fdd633;
+}
+.fblogo img{
+    width:20px;
+    height:20px;
+}
+.animate-hide-left {
+    -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s;
+    -moz-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s;
+    -o-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s;
+    transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s;
+    line-height:20px;
+    opacity:1;
+    padding:10px;
+    background:white;
+    position: relative;
+    left: 0;
+}
+
+.animate-hide-left.ng-hide {
+    left: -100%;
+    opacity:0;
+    padding:0 10px;
+    -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s;
+    -moz-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s;
+    -o-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s;
+    transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s;
+}
+.animate-hide-right {
+    -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s;
+    -moz-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s;
+    -o-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s;
+    transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s;
+    line-height:20px;
+    opacity:1;
+    padding:10px;
+    background:white;
+    position: relative;
+    right: 0;
+}
+
+.animate-hide-right.ng-hide {
+    right: -100%;
+    opacity:0;
+    padding:0 10px;
+    -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s;
+    -moz-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s;
+    -o-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s;
+    transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s;
+}
