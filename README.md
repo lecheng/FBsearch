@@ -16,4 +16,4 @@ Main function:
 9. Time conversion
 
 ## demo
-http://lechengbuptsse.appspot.com/search.htm(l
+[click](http://lechengbuptsse.appspot.com/search.html)
